@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A45E13E23ABF48F00C69B79 /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A45E13D23ABF48F00C69B79 /* PlanetCollectionViewCell.swift */; };
+		1ABCAB5023ABF53600975294 /* PlanetCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCAB4F23ABF53600975294 /* PlanetCollectionViewController.swift */; };
+		1ABCAB5223ABFCBF00975294 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCAB5123ABFCBF00975294 /* SettingsViewController.swift */; };
 		9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD062113609700A55978 /* AppDelegate.swift */; };
 		9DDBBD0C2113609700A55978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBBD0A2113609700A55978 /* Main.storyboard */; };
 		9DDBBD0E2113609800A55978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBBD0D2113609800A55978 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A45E13D23ABF48F00C69B79 /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlanetCollectionViewCell.swift; path = "Planets/Model Controller/PlanetCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		1ABCAB4F23ABF53600975294 /* PlanetCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewController.swift; sourceTree = "<group>"; };
+		1ABCAB5123ABFCBF00975294 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Planets/Resources/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
 		9DDBBD032113609700A55978 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDBBD062113609700A55978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DDBBD0B2113609700A55978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +46,9 @@
 		27F670EB21EFC6AA0035C1BF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1ABCAB5123ABFCBF00975294 /* SettingsViewController.swift */,
+				1ABCAB4F23ABF53600975294 /* PlanetCollectionViewController.swift */,
+				9DDBBD1E211360F500A55978 /* PlanetController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -94,7 +103,7 @@
 		9DDBBD1C211360E000A55978 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9DDBBD1E211360F500A55978 /* PlanetController.swift */,
+				1A45E13D23ABF48F00C69B79 /* PlanetCollectionViewCell.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -171,9 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A45E13E23ABF48F00C69B79 /* PlanetCollectionViewCell.swift in Sources */,
 				9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */,
+				1ABCAB5023ABF53600975294 /* PlanetCollectionViewController.swift in Sources */,
 				9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */,
 				9DDBBD19211360D100A55978 /* Planet.swift in Sources */,
+				1ABCAB5223ABFCBF00975294 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
